@@ -48,7 +48,7 @@ form.addEventListener('click', (e) => {
 });
 btn.addEventListener('click', () => {
   const txt = input.value;
-  const blank = /^$|\s/g;
+  const blank = /^$/g;
   if (!blank.test(txt)) {
     if (txt !== '' && stateList.length === 0) {
       stateList.unshift({ task: txt, isDone: false });
