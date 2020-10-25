@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/todo.css">
+        <script defer src="./js/todo.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1 class="title">To-do list</h1>
+            <form id="form">
+            <div class="addElements">
+                <input id="add" type="text" placeholder="add a task">
+                <button id="btn">+</button>
+            </div>              
+            </form>
+                <h3>Pending</h3>
+            <div class="pendingListWrapper">
+                <ul class="list" id="list"></ul>
+            </div>
+                <h3>Done</h3>
+            <div class="doneListWrapper">
+                <ul class="doneList" id="doneList"></ul>  
+            </div>
+            <button class="deleteButton" id="deleteButton">Clear Done</button>
+            </div>
+    </body>  
+</html>
